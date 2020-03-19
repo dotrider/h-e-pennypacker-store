@@ -1,0 +1,14 @@
+.inventoryComp {
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    width: 90%
+}
+
