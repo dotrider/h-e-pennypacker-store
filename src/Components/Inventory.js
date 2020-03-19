@@ -26,9 +26,10 @@ class Inventory extends Component {
     render(){
         const mappedInventory = this.state.inventory.map(inv => {
             return <div key={inv.id} className='products'>
-                 <div><img src={inv.imgUrl}/></div>
-                 <div>{inv.name}</div>
-                 <div>{inv.price}</div>       
+                 <div className='productImage'><img src={inv.imgUrl}/></div>
+                 <div className='productName'>{inv.name}</div>
+                 <div className='productPrice'>{inv.price}</div>    
+                 <div><button>add</button></div>   
                 </div>
         })
         return(

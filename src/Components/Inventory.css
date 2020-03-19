@@ -1,14 +1,30 @@
 .inventoryComp {
-    margin: 0 auto;
+    background-color: dodgerblue;
+    height: 100%;
 }
-
 img {
     width: 200px;
+    height: 210px;
+    border-radius: 10px;
 }
 
 .productContainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
-    width: 90%
+    width: 100%;
+    gap: 20px;
+    background-color: rgb(172, 204, 236);
+    margin: 0 auto;
 }
 
+
+.productName {
+    font-size: 1.3rem;
+
+}
+
+.productPrice {
+    font-size: 1rem;
+    color: red;
+    padding: 10px;
+}
