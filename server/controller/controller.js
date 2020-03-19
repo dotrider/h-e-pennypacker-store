@@ -1,4 +1,4 @@
-const inventory = require('./data.json');
+const inventory = require('../../data.json');
 
 module.exports = {
     
